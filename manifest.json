@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Save Page as Markdown",
+  "version": "1.0.0",
+  "description": "One-click: convert current page to Markdown and download as .md",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Save as Markdown"
+  }
+}
+
